@@ -1,37 +1,20 @@
-#include "Matrix.h"
+#include <iostream>
+#include <vector>
+#include <cassert>
+#include <cmath>
+#include <valarray>
 
-vector<double> array2vector(double *p,int size )
-{
-    return vector<double>(p,p+size);
-}
-
-
+using namespace std;
 
 int main() {
 
-    double v[2] = {1,2,};
-    vector<double> vv = array2vector(v,2);
-    Matrix<double> m(vv, 2, 1);
-    m.reshape(2,1);
-    Matrix<double> mt(m.T());
-    double dot_sum = mt.normal().cross(mt);
-    double sum= (m*m).sum();
+    valarray<double> vec(10);
+    for (size_t i = 0; i < vec.size(); i++)
+        vec[i] = 0.3 * i;
+    valarray<double> sinc = sin(vec);
 
-
-//    m.T();
-
-
-    Matrix<double> mm(-m);
-
-
-    Matrix<double> res = mm + mm;
-
-
-    Matrix<bool> o = Matrix<bool>::ones(2, 3);
-    int num = 4;
-    bool b = (bool) num;
-    Matrix<double> mo = Matrix<double>::ones_like(m);
-    cout << endl << 233 << "bool" << b << endl;
+    for (size_t i = 0; i < vec.size(); ++i)
+        std::cout << vec[i] << "sin:" << sinc[i] << "sin x" << sin(vec[i]) << endl;
 
     return 0;
 }

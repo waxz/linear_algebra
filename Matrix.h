@@ -9,7 +9,7 @@
 #include <vector>
 #include <cassert>
 #include <cmath>
-
+#include <valarray>
 using namespace std;
 
 template<class Typ>
@@ -47,11 +47,11 @@ public:
 
     static Matrix zeros_like(Matrix &r_v);
 
-    static Matrix arange(double, double, double);
+    static Matrix arange(Typ, Typ, Typ);
 
-    static Matrix linspace(double, double, int);
+    static Matrix linspace(Typ, Typ, int);
 
-    static Matrix logspace(double, double, int);
+    static Matrix logspace(Typ, Typ, int);
 
     static Matrix concat(Matrix, Matrix);
 
