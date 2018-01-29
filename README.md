@@ -9,3 +9,6 @@ https://codereview.stackexchange.com/questions/68486/custom-matrix-class
 https://codereview.stackexchange.com/questions/134391/vector-implementation-in-c
 https://stackoverflow.com/questions/4172722/what-is-the-rule-of-three
 https://codereview.stackexchange.com/questions/154008/custom-stl-vector-in-c
+
+
+https://stackoverflow.com/questions/30993289/how-can-i-create-histogram-of-vectorvectorlong
