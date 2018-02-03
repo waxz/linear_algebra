@@ -11,4 +11,8 @@ https://stackoverflow.com/questions/4172722/what-is-the-rule-of-three
 https://codereview.stackexchange.com/questions/154008/custom-stl-vector-in-c
 
 
+histgram
 https://stackoverflow.com/questions/30993289/how-can-i-create-histogram-of-vectorvectorlong
+gauss-newton
+
+https://stackoverflow.com/questions/29699057/implementation-of-the-gauss-newton-method-from-wikipedia-example
