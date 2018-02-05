@@ -16,6 +16,8 @@ https://stackoverflow.com/questions/30993289/how-can-i-create-histogram-of-vecto
 gauss-newton
 https://chionophilous.wordpress.com/2012/09/01/implementing-the-gauss-newton-algorithm-for-sphere-fitting-1-of-3/
 https://stackoverflow.com/questions/29699057/implementation-of-the-gauss-newton-method-from-wikipedia-example
+http://blog.csdn.net/zhubaohua_bupt/article/details/74973347
+http://blog.csdn.net/piaoxuezhong/article/details/60135153
 
 calculate mean and standard deviation for a vector
 https://stackoverflow.com/questions/7616511/calculate-mean-and-standard-deviation-from-a-vector-of-samples-in-c-using-boos/12405793#12405793
