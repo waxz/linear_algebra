@@ -14,5 +14,10 @@ https://codereview.stackexchange.com/questions/154008/custom-stl-vector-in-c
 histgram
 https://stackoverflow.com/questions/30993289/how-can-i-create-histogram-of-vectorvectorlong
 gauss-newton
-
+https://chionophilous.wordpress.com/2012/09/01/implementing-the-gauss-newton-algorithm-for-sphere-fitting-1-of-3/
 https://stackoverflow.com/questions/29699057/implementation-of-the-gauss-newton-method-from-wikipedia-example
+
+calculate mean and standard deviation for a vector
+https://stackoverflow.com/questions/7616511/calculate-mean-and-standard-deviation-from-a-vector-of-samples-in-c-using-boos/12405793#12405793
+peak-signal-detection-in-realtime-timeseries-data
+https://stackoverflow.com/questions/22583391/peak-signal-detection-in-realtime-timeseries-data/22640362#22640362

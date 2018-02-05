@@ -4,6 +4,9 @@
 #include <cmath>
 #include <valarray>
 #include "tm.h"
+#include <numeric>
+
+
 using namespace std;
 
 void cbk(double a) {
@@ -27,6 +30,12 @@ int main() {
 
     m.Combiner(Add, cbk, 12, 13);
     m.Combiner(Mult, cbk, 12, 13);
+
+    double sum = std::accumulate(vec.begin(), vec.end(), 0.0);
+    double mean = sum / vec.size();
+
+    double sq_sum = std::inner_product(vec.begin(), vec.end(), vec.begin(), 0.0);
+    double stdev = std::sqrt(sq_sum / vec.size() - mean * mean);
 
     return 0;
 }
