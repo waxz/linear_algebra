@@ -23,3 +23,7 @@ calculate mean and standard deviation for a vector
 https://stackoverflow.com/questions/7616511/calculate-mean-and-standard-deviation-from-a-vector-of-samples-in-c-using-boos/12405793#12405793
 peak-signal-detection-in-realtime-timeseries-data
 https://stackoverflow.com/questions/22583391/peak-signal-detection-in-realtime-timeseries-data/22640362#22640362
+
+peak
+http://pythonhosted.org/PeakUtils/
+https://blog.ytotech.com/2015/11/01/findpeaks-in-python/
